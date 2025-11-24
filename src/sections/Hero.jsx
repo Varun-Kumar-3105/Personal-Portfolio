@@ -13,16 +13,12 @@ const Hero = () => {
                 >
                     <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                            Frontend Developer
-                        </span>{" "}
-                        specializing in{" "}
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500">
-                            React & Flutter
+                            Full Stack Developer
                         </span>
                     </h1>
 
                     <p className="text-gray-400 text-lg md:text-xl max-w-[800px] mb-10">
-                        I am a versatile Frontend Developer specializing in React.js, React Native, and Flutter, with strong expertise in JavaScript and Dart. I focus on building responsive, scalable, and visually appealing web and mobile applications with seamless user experiences.
+                        I am a versatile Full-Stack Developer specializing in React.js, React Native, and Flutter for Frontend development, with strong Backend expertise in FastAPI, Python, Uvicorn, and RESTful API design. I focus on building responsive, scalable, and visually appealing web and mobile applications supported by efficient, high-performance server architectures.
                     </p>
 
                     <div className="flex gap-4">

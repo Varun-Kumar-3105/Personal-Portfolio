@@ -12,7 +12,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-          Siva Teja
+          B Y V Siva Teja
         </a>
 
         <div className="hidden md:flex items-center gap-8">

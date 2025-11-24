@@ -5,27 +5,19 @@ import { FaGithub, FaExternalLinkAlt, FaServer, FaShoppingCart, FaRobot } from '
 const projects = [
     {
         title: "Farmacy",
-        category: "AI-Powered Crop Advisory",
-        description: "AI-driven, mobile-first platform for personalized crop advisory and disease detection. Integrated Google Gemini’s multi-modal capabilities for intelligent disease diagnoses. Built with React Native (Expo) and FastAPI.",
-        tags: ["React Native", "Expo", "Google Gemini", "FastAPI", "AI"],
+        category: "AI-Powered Crop Advisory Platform",
+        description: "Developed an AI-driven, mobile-first platform to assist farmers through personalized crop advisory, disease detection, and real-time agricultural updates. Built the frontend using React Native (Expo) with multilingual support, integrating camera, speech, and notification modules. Integrated Google Gemini’s multi-modal capabilities via FastAPI to analyze crop images and generate intelligent diagnoses.",
+        tags: ["React Native", "Expo", "Google Gemini", "FastAPI", "AI", "Python"],
         icon: <FaRobot />,
         color: "from-green-500 to-emerald-500"
     },
     {
         title: "AIProctorLock",
-        category: "Secure Remote Examination",
-        description: "Web-based AI-powered platform for secure remote interviews and examinations. Features restricted navigation, screen control, and real-time proctoring dashboards. Built with React.js.",
-        tags: ["React.js", "AI Proctoring", "Web Security", "Real-time"],
+        category: "Secure Remote Examination Platform",
+        description: "Developed a web-based AI-powered platform for conducting and monitoring remote interviews and examinations securely. Designed the complete frontend using React.js with restricted navigation and screen control. Collaborated with backend teams to implement live monitoring, behavioral tracking, and automated flagging of suspicious activity.",
+        tags: ["React.js", "AI Proctoring", "Web Security", "Real-time", "FastAPI"],
         icon: <FaServer />,
         color: "from-blue-500 to-cyan-500"
-    },
-    {
-        title: "Offline RAG Chatbot",
-        category: "AI/ML - DRDO Project",
-        description: "Developed an offline RAG-based chatbot using vector database technology for secure, local data processing. The system operates entirely offline using Ollama for inference and ChromaDB for vector storage, ensuring complete data privacy and security for sensitive information.",
-        tags: ["Ollama", "ChromaDB", "RAG", "Python", "Vector DB", "Offline AI"],
-        icon: <FaRobot />,
-        color: "from-purple-500 to-pink-500"
     }
 ];
 
@@ -36,11 +28,11 @@ const ProjectCard = ({ project, index }) => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{ once: true }}
-            className="group relative bg-[#110c2a] rounded-xl overflow-hidden border border-[#2a0e61] hover:border-purple-500/50 transition-colors duration-300"
+            className="group relative bg-[#110c2a] rounded-xl overflow-hidden border border-[#2a0e61] hover:border-purple-500/50 transition-colors duration-300 h-full"
         >
             <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}></div>
 
-            <div className="p-8 relative z-10">
+            <div className="p-8 relative z-10 flex flex-col h-full">
                 <div className={`w-14 h-14 rounded-lg bg-gradient-to-br ${project.color} flex items-center justify-center text-2xl text-white mb-6 shadow-lg`}>
                     {project.icon}
                 </div>
@@ -53,25 +45,16 @@ const ProjectCard = ({ project, index }) => {
                     {project.category}
                 </p>
 
-                <p className="text-gray-400 mb-6 leading-relaxed">
+                <p className="text-gray-400 mb-6 leading-relaxed flex-grow">
                     {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2 mb-8">
+                <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag, i) => (
                         <span key={i} className="px-3 py-1 rounded-full bg-[#2a0e61]/50 border border-[#2a0e61] text-gray-300 text-xs">
                             {tag}
                         </span>
                     ))}
-                </div>
-
-                <div className="flex gap-4">
-                    <button className="flex items-center gap-2 text-white hover:text-purple-400 transition-colors font-medium">
-                        <FaGithub /> Code
-                    </button>
-                    <button className="flex items-center gap-2 text-white hover:text-cyan-400 transition-colors font-medium">
-                        <FaExternalLinkAlt /> Demo
-                    </button>
                 </div>
             </div>
         </motion.div>
@@ -90,9 +73,11 @@ const Projects = () => {
                     Featured Projects
                 </motion.h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="flex flex-wrap justify-center gap-8">
                     {projects.map((project, index) => (
-                        <ProjectCard key={index} project={project} index={index} />
+                        <div key={index} className="w-full md:w-[calc(50%-1rem)] max-w-[500px]">
+                            <ProjectCard project={project} index={index} />
+                        </div>
                     ))}
                 </div>
             </div>

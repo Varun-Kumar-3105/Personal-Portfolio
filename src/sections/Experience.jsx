@@ -7,19 +7,10 @@ const experiences = [
         title: "Software Associate Engineer",
         company: "Nexnora Technologies Pvt. Ltd.",
         date: "April 2025 – Present",
-        description: "Designed and developed responsive and scalable frontend interfaces for Farmacy and AIProctorLock. Collaborated with backend and AI teams for seamless API integration. Delivered pixel-perfect UI implementations with cross-platform compatibility. Focused on reusable components, accessibility standards, and optimized rendering.",
-        tech: "React.js, React Native, TypeScript, JavaScript, Node.js, Expo Go, Flutter, Dart",
+        description: "At Nexnora Technologies Pvt. Ltd., I contributed to both Frontend and Backend development for two major products, Farmacy and AIProctorLock. I designed and built responsive, scalable, and pixel-perfect interfaces while also working on backend services using FastAPI and Python to ensure smooth API workflows and reliable data handling. I consistently followed modern development standards, focusing on reusable components, clean architecture, accessibility, and efficient rendering to deliver a seamless user experience and maintain code quality across the stack.",
+        tech: "React.js, React Native, TypeScript, JavaScript, Node.js, Expo Go, Flutter, Dart, FastAPI, Python, Uvicorn, REST APIs",
         icon: <FaBriefcase />,
         color: "from-purple-500 to-cyan-500"
-    },
-    {
-        title: "Intern & Major Project",
-        company: "DRDO",
-        date: "Internship",
-        description: "Developed an offline RAG-based chatbot using vector database technology. Implemented secure, local solutions for sensitive data processing. The system operates entirely offline, ensuring data privacy and security.",
-        tech: "Ollama, ChromaDB, RAG, Python, Vector Database",
-        icon: <FaRobot />,
-        color: "from-blue-500 to-purple-500"
     }
 ];
 
@@ -46,11 +37,6 @@ const ExperienceCard = ({ experience, index }) => {
                 <p className="text-gray-300 text-sm leading-relaxed">
                     {experience.description}
                 </p>
-                {experience.tech && (
-                    <p className="text-purple-400 text-sm mt-4 font-mono">
-                        Tech Stack: {experience.tech}
-                    </p>
-                )}
             </div>
         </motion.div >
     );

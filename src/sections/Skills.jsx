@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaCode, FaTools, FaTrophy, FaCertificate } from 'react-icons/fa';
+import { FaCode, FaTools, FaTrophy } from 'react-icons/fa';
 
 const skillCategories = [
     {
@@ -11,7 +11,7 @@ const skillCategories = [
     },
     {
         title: "Tools & Frameworks",
-        skills: ["React Native", "Flutter", "React.js", "Node.js", "HTML/CSS", "Jupyter Notebook", "Visual Studio"],
+        skills: ["React Native", "Flutter", "React.js", "Node.js", "FastAPI", "Uvicorn", "Tailwind CSS", "HTML/CSS", "Jupyter Notebook", "Visual Studio"],
         icon: <FaTools />,
         color: "from-cyan-500 to-blue-500"
     }
@@ -20,7 +20,7 @@ const skillCategories = [
 const achievements = [
     {
         title: "Competitive Programming",
-        description: "Solved 300+ problems on Hackerrank, LeetCode, GeeksforGeeks. Proficient in algorithms, data structures, dynamic programming, arrays, strings, trees, and graphs.",
+        description: "Solved 300+ problems on Hackerrank, LeetCode, GeeksforGeeks. Proficient in algorithms, data structures, dynamic programming, arrays, strings.",
         icon: <FaCode />
     },
     {
@@ -30,11 +30,7 @@ const achievements = [
     }
 ];
 
-const certifications = [
-    "Certified in Full Stack development",
-    "Certified in GDSC-Cloud Essentials and Gen-AI",
-    "Certified in AI/ML"
-];
+
 
 const Skills = () => {
     return (
@@ -71,11 +67,11 @@ const Skills = () => {
                     ))}
                 </div>
 
-                {/* Achievements & Certifications */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {/* Achievements */}
+                <div className="w-full max-w-3xl mx-auto">
                     <motion.div
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         className="bg-[#110c2a] p-6 rounded-xl border border-[#2a0e61]"
                     >
                         <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
@@ -89,24 +85,6 @@ const Skills = () => {
                                 </div>
                             ))}
                         </div>
-                    </motion.div>
-
-                    <motion.div
-                        initial={{ opacity: 0, x: 20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        className="bg-[#110c2a] p-6 rounded-xl border border-[#2a0e61]"
-                    >
-                        <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
-                            <FaCertificate className="text-cyan-500" /> Certifications
-                        </h3>
-                        <ul className="space-y-4">
-                            {certifications.map((cert, index) => (
-                                <li key={index} className="flex items-center gap-3 text-gray-300">
-                                    <span className="w-2 h-2 rounded-full bg-cyan-500"></span>
-                                    {cert}
-                                </li>
-                            ))}
-                        </ul>
                     </motion.div>
                 </div>
             </div>
