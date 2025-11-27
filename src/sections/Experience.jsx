@@ -4,20 +4,29 @@ import { FaBriefcase, FaCode, FaRobot } from 'react-icons/fa';
 
 const experiences = [
     {
-        title: "Software Associate Engineer",
-        company: "Nexnora Technologies Pvt. Ltd.",
-        date: "April 2025 – Present",
-        description: "Designed and developed responsive and scalable frontend interfaces for Farmacy and AIProctorLock. Collaborated with backend and AI teams for seamless API integration. Delivered pixel-perfect UI implementations with cross-platform compatibility. Focused on reusable components, accessibility standards, and optimized rendering.",
-        tech: "React.js, React Native, TypeScript, JavaScript, Node.js, Expo Go, Flutter, Dart",
+        title: "Front-End Developer",
+        company: "Dussap IT Solutions",
+        date: "July 2025 – Present",
+        description: "Developing Shop-Next-Door, a seamless e-commerce mobile application similar to Zepto using React Native and Expo. Building dynamic and responsive UI screens in VS Code, ensuring smooth navigation, optimized performance, and consistent design across Android and iOS platforms. Integrating geolocation, category filtering, and cart management features to deliver a rich buyer–seller experience. Collaborating closely with the backend team to connect REST APIs, manage product data, and ensure end-to-end functionality.",
+        tech: "React Native, Expo, JavaScript, REST APIs, VS Code",
         icon: <FaBriefcase />,
         color: "from-purple-500 to-cyan-500"
     },
     {
-        title: "Intern & Major Project",
-        company: "DRDO",
-        date: "Internship",
-        description: "Developed an offline RAG-based chatbot using vector database technology. Implemented secure, local solutions for sensitive data processing. The system operates entirely offline, ensuring data privacy and security.",
-        tech: "Ollama, ChromaDB, RAG, Python, Vector Database",
+        title: "Web Development Intern",
+        company: "PratekCorp",
+        date: "Oct 2024 – Dec 2024",
+        description: "Developed and deployed a web application with Weebly and React, enhancing frontend interactivity. Optimized UX/UI, improved performance, and implemented accessibility refinements. Collaborated in an agile, US-based remote team environment, ensuring smooth delivery.",
+        tech: "React, Weebly, JavaScript, UX/UI Design",
+        icon: <FaCode />,
+        color: "from-cyan-500 to-blue-500"
+    },
+    {
+        title: "AI/ML Intern",
+        company: "Rinex",
+        date: "May 2022 – July 2022",
+        description: "Worked with Microsoft Azure for model training, deployment, and data preprocessing. Gained practical exposure to Python-based ML workflows and AIML for chatbot development. Strengthened expertise in applying ML algorithms to real-world datasets.",
+        tech: "Microsoft Azure, Python, AIML, Machine Learning",
         icon: <FaRobot />,
         color: "from-blue-500 to-purple-500"
     }

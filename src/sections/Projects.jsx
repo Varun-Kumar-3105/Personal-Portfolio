@@ -1,30 +1,30 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaServer, FaShoppingCart, FaRobot } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaServer, FaShieldAlt, FaRobot, FaMicrophone, FaUserCheck } from 'react-icons/fa';
 
 const projects = [
     {
-        title: "Farmacy",
-        category: "AI-Powered Crop Advisory",
-        description: "AI-driven, mobile-first platform for personalized crop advisory and disease detection. Integrated Google Gemini’s multi-modal capabilities for intelligent disease diagnoses. Built with React Native (Expo) and FastAPI.",
-        tags: ["React Native", "Expo", "Google Gemini", "FastAPI", "AI"],
-        icon: <FaRobot />,
-        color: "from-green-500 to-emerald-500"
+        title: "Vulnerability Assessment Tool",
+        category: "Cybersecurity",
+        description: "Addressed the increasing complexity of cyber threats and limitations of traditional security systems. Used advanced tools such as XSS, DoS, and Burp Suite for systematic vulnerability scans. Developed mitigation strategies to strengthen system defenses and reduce exploitation risks. Provided hands-on experience in vulnerability management tools and techniques, emphasizing ethical cybersecurity practices including responsible vulnerability disclosure.",
+        tags: ["XSS", "DoS", "Burp Suite", "Cybersecurity", "Ethical Hacking"],
+        icon: <FaShieldAlt />,
+        color: "from-red-500 to-orange-500"
     },
     {
-        title: "AIProctorLock",
-        category: "Secure Remote Examination",
-        description: "Web-based AI-powered platform for secure remote interviews and examinations. Features restricted navigation, screen control, and real-time proctoring dashboards. Built with React.js.",
-        tags: ["React.js", "AI Proctoring", "Web Security", "Real-time"],
-        icon: <FaServer />,
+        title: "Speech To Text Converter",
+        category: "AWS Cloud & Machine Learning",
+        description: "Designed and implemented a speech-to-text converter application utilizing Amazon Transcribe. This project leveraged cloud-based Machine Learning APIs to transcribe audio files into text format. Gained hands-on experience with data pre-processing, API integration, and managing transcripts within the AWS ecosystem.",
+        tags: ["AWS Transcribe", "Cloud ML", "Python", "API Integration"],
+        icon: <FaMicrophone />,
         color: "from-blue-500 to-cyan-500"
     },
     {
-        title: "Offline RAG Chatbot",
-        category: "AI/ML - DRDO Project",
-        description: "Developed an offline RAG-based chatbot using vector database technology for secure, local data processing. The system operates entirely offline using Ollama for inference and ChromaDB for vector storage, ensuring complete data privacy and security for sensitive information.",
-        tags: ["Ollama", "ChromaDB", "RAG", "Python", "Vector DB", "Offline AI"],
-        icon: <FaRobot />,
+        title: "Attendance System using Face Recognition",
+        category: "AI/ML - Computer Vision",
+        description: "Built a facial recognition attendance system that captures 40 images per student and extracts facial points for identification. Utilized K-Nearest Neighbors (KNN) algorithm to create a model from the captured images, enabling accurate face recognition. Automated attendance tracking by predicting student faces using the trained model, ensuring reliable and efficient attendance management.",
+        tags: ["Face Recognition", "KNN", "Python", "Computer Vision", "OpenCV"],
+        icon: <FaUserCheck />,
         color: "from-purple-500 to-pink-500"
     }
 ];

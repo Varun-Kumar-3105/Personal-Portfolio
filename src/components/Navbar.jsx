@@ -12,7 +12,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-          Siva Teja
+          Abhilash Bala
         </a>
 
         <div className="hidden md:flex items-center gap-8">
@@ -24,10 +24,10 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href="https://github.com/Bsivateja1901" target="_blank" rel="noopener noreferrer" className="text-white hover:text-purple-500 transition-colors text-xl">
+          <a href="https://github.com/AbhilashBala2003" target="_blank" rel="noopener noreferrer" className="text-white hover:text-purple-500 transition-colors text-xl">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/siva1901/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-500 transition-colors text-xl">
+          <a href="https://www.linkedin.com/in/AbhilashBala" target="_blank" rel="noopener noreferrer" className="text-white hover:text-cyan-500 transition-colors text-xl">
             <FaLinkedin />
           </a>
         </div>

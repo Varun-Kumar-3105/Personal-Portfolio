@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
 
 const Contact = () => {
     return (
@@ -23,21 +23,24 @@ const Contact = () => {
                     </p>
 
                     <div className="flex flex-col gap-6 mb-8">
-                        <a href="mailto:byvsivateja@gmail.com" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors">
+                        <a href="mailto:balaabhilash7@gmail.com" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors">
                             <div className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-cyan-400">
                                 <FaEnvelope />
                             </div>
-                            <span>byvsivateja@gmail.com</span>
+                            <span>balaabhilash7@gmail.com</span>
+                        </a>
+                        <a href="tel:+919490723707" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors">
+                            <div className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-green-400">
+                                <FaPhone />
+                            </div>
+                            <span>+91 9490723707</span>
                         </a>
                         <div className="flex gap-4 justify-center mt-4">
-                            <a href="https://github.com/Bsivateja1901" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-white hover:bg-purple-600 transition-colors">
+                            <a href="https://github.com/AbhilashBala2003" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-white hover:bg-purple-600 transition-colors">
                                 <FaGithub size={20} />
                             </a>
-                            <a href="https://www.linkedin.com/in/siva1901/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
+                            <a href="https://www.linkedin.com/in/AbhilashBala" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
                                 <FaLinkedin size={20} />
-                            </a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-white hover:bg-sky-500 transition-colors">
-                                <FaTwitter size={20} />
                             </a>
                         </div>
                     </div>

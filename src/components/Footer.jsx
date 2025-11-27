@@ -10,13 +10,13 @@ const Footer = () => {
                 </p>
 
                 <div className="flex items-center gap-6">
-                    <a href="https://github.com/Bsivateja1901" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                    <a href="https://github.com/AbhilashBala2003" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                         <FaGithub size={20} />
                     </a>
-                    <a href="https://www.linkedin.com/in/siva1901/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                    <a href="https://www.linkedin.com/in/AbhilashBala" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                         <FaLinkedin size={20} />
                     </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                    <a href="https://twitter.com/AbhilashBala2003" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                         <FaTwitter size={20} />
                     </a>
                 </div>

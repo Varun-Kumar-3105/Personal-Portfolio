@@ -5,35 +5,42 @@ import { FaCode, FaTools, FaTrophy, FaCertificate } from 'react-icons/fa';
 const skillCategories = [
     {
         title: "Programming Languages",
-        skills: ["C/C++", "Java", "Python", "JavaScript", "Dart"],
+        skills: ["C/C++", "Java", "Python", "JavaScript", "CSS", "SQL", "HTML", "DSA"],
         icon: <FaCode />,
         color: "from-purple-500 to-cyan-500"
     },
     {
-        title: "Tools & Frameworks",
-        skills: ["React Native", "Flutter", "React.js", "Node.js", "HTML/CSS", "Jupyter Notebook", "Visual Studio"],
+        title: "Frameworks & Tools",
+        skills: ["React", "React Native", "MongoDB", "Jupyter Notebook", "Cisco Packet Tracer", "Arduino"],
         icon: <FaTools />,
         color: "from-cyan-500 to-blue-500"
+    },
+    {
+        title: "Machine Learning",
+        skills: ["Scikit-learn", "Numpy", "Pandas", "AWS Transcribe", "Microsoft Azure"],
+        icon: <FaTools />,
+        color: "from-green-500 to-teal-500"
     }
 ];
 
 const achievements = [
     {
-        title: "Competitive Programming",
-        description: "Solved 300+ problems on Hackerrank, LeetCode, GeeksforGeeks. Proficient in algorithms, data structures, dynamic programming, arrays, strings, trees, and graphs.",
+        title: "Problem Solving",
+        description: "Active on HackerRank, LeetCode, and GeeksforGeeks. Proficient in Data Structures & Algorithms with strong problem-solving skills.",
         icon: <FaCode />
     },
     {
-        title: "Hackathon Winner",
-        description: "Awarded Best Project under the Theme of Next-Gen Communication for Customer Feedback Amplified at Hack-Arena Hackathon conducted by Guru Nanak Institutions (Nov 2024).",
+        title: "Leadership & Events",
+        description: "Vice President at Street Cause – MVSR Engineering College. Student Coordinator for DAPCOM-2024 International Conference. Member of Computer Society of India.",
         icon: <FaTrophy />
     }
 ];
 
 const certifications = [
-    "Certified in Full Stack development",
-    "Certified in GDSC-Cloud Essentials and Gen-AI",
-    "Certified in AI/ML"
+    "AIML Certification – Rinex",
+    "Networking Certification – Cisco",
+    "Programming (Python, Java, C, SQL) – IIT Bombay Spoken Tutorial",
+    "IoT & Embedded Systems – Infosys Springboard (Raspberry Pi, Arduino)"
 ];
 
 const Skills = () => {

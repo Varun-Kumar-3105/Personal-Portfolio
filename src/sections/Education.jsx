@@ -4,17 +4,17 @@ import { FaGraduationCap } from 'react-icons/fa';
 
 const education = [
     {
-        degree: "Bachelor Of Engineering",
+        degree: "Bachelor of Engineering – Computer Science",
         school: "Maturi Venkata Subba Rao Engineering College, Hyderabad",
-        date: "May 2025",
-        details: "Computer Science and Engineering. CGPA: 8.71/10",
+        date: "2021 – 2025",
+        details: "CGPA: 7.28/10",
         color: "from-purple-500 to-cyan-500"
     },
     {
-        degree: "Intermediate",
-        school: "Sri Chaitanya Junior College, Madhapur",
-        date: "Jul 2019 – Jul 2021",
-        details: "MPC. Percentage: 94.6%",
+        degree: "Intermediate – MPC",
+        school: "Sri Gayathri Junior College, LB Nagar",
+        date: "2019 – 2021",
+        details: "Completed intermediate education with focus on Mathematics, Physics, and Chemistry",
         color: "from-cyan-500 to-blue-500"
     }
 ];
