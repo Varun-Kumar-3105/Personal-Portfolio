@@ -23,23 +23,23 @@ const Contact = () => {
                     </p>
 
                     <div className="flex flex-col gap-6 mb-8">
-                        <a href="mailto:balaabhilash7@gmail.com" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors">
+                        <a href="mailto:maheshrajupallapu2@gmail.com" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors">
                             <div className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-cyan-400">
                                 <FaEnvelope />
                             </div>
-                            <span>balaabhilash7@gmail.com</span>
+                            <span>maheshrajupallapu2@gmail.com</span>
                         </a>
-                        <a href="tel:+919490723707" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors">
+                        <a href="tel:+916302429120" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors">
                             <div className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-green-400">
                                 <FaPhone />
                             </div>
-                            <span>+91 9490723707</span>
+                            <span>+91 6302429120</span>
                         </a>
                         <div className="flex gap-4 justify-center mt-4">
-                            <a href="https://github.com/AbhilashBala2003" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-white hover:bg-purple-600 transition-colors">
+                            <a href="https://github.com/Pallapumaheshraju" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-white hover:bg-purple-600 transition-colors">
                                 <FaGithub size={20} />
                             </a>
-                            <a href="https://www.linkedin.com/in/AbhilashBala" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
+                            <a href="https://www.linkedin.com/in/mahesh-raju-pallapu" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#2a0e61] flex items-center justify-center text-white hover:bg-blue-600 transition-colors">
                                 <FaLinkedin size={20} />
                             </a>
                         </div>

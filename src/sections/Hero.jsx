@@ -11,18 +11,36 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.5 }}
                     className="flex flex-col items-center justify-center text-center"
                 >
-                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+                    <motion.h2
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6, delay: 0.3 }}
+                        className="text-lg md:text-xl text-gray-400 mb-4"
+                    >
+                        Hi, I'm
+                    </motion.h2>
+
+                    <motion.h1
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.6, delay: 0.4 }}
+                        className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 mb-4"
+                    >
+                        Mahesh Raju
+                    </motion.h1>
+
+                    <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                            Front-End Developer
+                            UI/UX Designer
                         </span>{" "}
-                        specializing in{" "}
+                        with hands-on experience in{" "}
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500">
-                            React Native & Web Development
+                            Mobile & Web Interfaces
                         </span>
-                    </h1>
+                    </h2>
 
                     <p className="text-gray-400 text-lg md:text-xl max-w-[800px] mb-10">
-                        A motivated and adaptable Computer Science graduate with a strong foundation in machine learning, web development, and problem-solving. Skilled in applying algorithms, data structures, and modern frameworks to build efficient solutions. Quick learner with a passion for continuous growth, eager to contribute technical expertise, creativity, and dedication to dynamic team environments.
+                        UI/UX Designer with hands-on experience designing mobile and web interfaces using Figma. Strong understanding of user-centered design, visual hierarchy, and clean user flows. Skilled in creating intuitive layouts, wireframes, and prototypes, and collaborating with teams to deliver effective designs.
                     </p>
 
                     <div className="flex gap-4">

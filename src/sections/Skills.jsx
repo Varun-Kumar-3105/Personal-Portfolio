@@ -4,20 +4,20 @@ import { FaCode, FaTools, FaTrophy, FaCertificate } from 'react-icons/fa';
 
 const skillCategories = [
     {
-        title: "Programming Languages",
-        skills: ["C/C++", "Java", "Python", "JavaScript", "CSS", "SQL", "HTML", "DSA"],
+        title: "UI/UX Skills",
+        skills: ["Wireframing", "Prototyping", "User Flows", "User Research", "Usability Testing", "Visual Design", "Design Systems", "Accessibility"],
         icon: <FaCode />,
         color: "from-purple-500 to-cyan-500"
     },
     {
-        title: "Frameworks & Tools",
-        skills: ["React", "React Native", "MongoDB", "Jupyter Notebook", "Cisco Packet Tracer", "Arduino"],
+        title: "Frameworks",
+        skills: ["Django", "User-centered Design", "Double Diamond Design", "Design Thinking"],
         icon: <FaTools />,
         color: "from-cyan-500 to-blue-500"
     },
     {
-        title: "Machine Learning",
-        skills: ["Scikit-learn", "Numpy", "Pandas", "AWS Transcribe", "Microsoft Azure"],
+        title: "Tools",
+        skills: ["Figma", "Components", "Auto-layout", "Prototyping", "Design System", "Canva", "Webflow", "Google Sheets/Forms"],
         icon: <FaTools />,
         color: "from-green-500 to-teal-500"
     }
@@ -25,22 +25,28 @@ const skillCategories = [
 
 const achievements = [
     {
-        title: "Problem Solving",
-        description: "Active on HackerRank, LeetCode, and GeeksforGeeks. Proficient in Data Structures & Algorithms with strong problem-solving skills.",
+        title: "UI/UX Design Course",
+        description: "Completed Internshala's UI/UX Design Course, gaining hands-on experience through real-world projects and developing strong practical skills in user interface design and user experience principles.",
         icon: <FaCode />
     },
     {
-        title: "Leadership & Events",
-        description: "Vice President at Street Cause – MVSR Engineering College. Student Coordinator for DAPCOM-2024 International Conference. Member of Computer Society of India.",
+        title: "Student Coordinator - DAPCom-2024",
+        description: "Coordinated activities for the International Conference on Data Acquisition, Processing, and Communication (29th Feb–2nd Mar 2024).",
+        icon: <FaTrophy />
+    },
+    {
+        title: "Cybersecurity Training",
+        description: "Completed the 7th Edition of the Indo-Dutch Cyber Security School and AICTE Cybersecurity Virtual Internship, gaining hands-on exposure to cybersecurity fundamentals and advanced international practices.",
         icon: <FaTrophy />
     }
 ];
 
 const certifications = [
-    "AIML Certification – Rinex",
-    "Networking Certification – Cisco",
-    "Programming (Python, Java, C, SQL) – IIT Bombay Spoken Tutorial",
-    "IoT & Embedded Systems – Infosys Springboard (Raspberry Pi, Arduino)"
+    "Software Engineer – Saylor Academy",
+    "Database Programming with SQL – Oracle",
+    "UI/UX Design Course – Internshala",
+    "Indo-Dutch Cyber Security School (7th Edition)",
+    "AICTE Cybersecurity Virtual Internship"
 ];
 
 const Skills = () => {

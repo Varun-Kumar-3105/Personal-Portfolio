@@ -4,31 +4,22 @@ import { FaBriefcase, FaCode, FaRobot } from 'react-icons/fa';
 
 const experiences = [
     {
-        title: "Front-End Developer",
-        company: "Dussap IT Solutions",
-        date: "July 2025 – Present",
-        description: "Developing Shop-Next-Door, a seamless e-commerce mobile application similar to Zepto using React Native and Expo. Building dynamic and responsive UI screens in VS Code, ensuring smooth navigation, optimized performance, and consistent design across Android and iOS platforms. Integrating geolocation, category filtering, and cart management features to deliver a rich buyer–seller experience. Collaborating closely with the backend team to connect REST APIs, manage product data, and ensure end-to-end functionality.",
-        tech: "React Native, Expo, JavaScript, REST APIs, VS Code",
+        title: "Summer Intern",
+        company: "DRDL Hyderabad",
+        date: "Apr 2024 - May 2024",
+        description: "Developed web applications using JSP and Java Servlets, and managed MySQL database operations. Collaborated on backend design and optimisation, gaining experience in server-side programming.",
+        tech: "JSP, Java Servlets, MySQL",
         icon: <FaBriefcase />,
         color: "from-purple-500 to-cyan-500"
     },
     {
-        title: "Web Development Intern",
-        company: "PratekCorp",
-        date: "Oct 2024 – Dec 2024",
-        description: "Developed and deployed a web application with Weebly and React, enhancing frontend interactivity. Optimized UX/UI, improved performance, and implemented accessibility refinements. Collaborated in an agile, US-based remote team environment, ensuring smooth delivery.",
-        tech: "React, Weebly, JavaScript, UX/UI Design",
+        title: "Springboard Intern",
+        company: "Infosys",
+        date: "Nov 2024 – Jan 2025",
+        description: "Gained hands-on experience during internship by collaborating with a team to develop and enhance an AI-powered Django application. Actively participating in discussions, problem-solving, and delivering key features.",
+        tech: "Django, AI, Python, Team Collaboration",
         icon: <FaCode />,
         color: "from-cyan-500 to-blue-500"
-    },
-    {
-        title: "AI/ML Intern",
-        company: "Rinex",
-        date: "May 2022 – July 2022",
-        description: "Worked with Microsoft Azure for model training, deployment, and data preprocessing. Gained practical exposure to Python-based ML workflows and AIML for chatbot development. Strengthened expertise in applying ML algorithms to real-world datasets.",
-        tech: "Microsoft Azure, Python, AIML, Machine Learning",
-        icon: <FaRobot />,
-        color: "from-blue-500 to-purple-500"
     }
 ];
 

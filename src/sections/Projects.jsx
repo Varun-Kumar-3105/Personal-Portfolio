@@ -4,28 +4,28 @@ import { FaGithub, FaExternalLinkAlt, FaServer, FaShieldAlt, FaRobot, FaMicropho
 
 const projects = [
     {
-        title: "Vulnerability Assessment Tool",
+        title: "Connect – Redefining Meaningful Digital Interaction",
+        category: "UI/UX Design",
+        description: "Designed an intuitive, visually engaging mobile interface with a clean layout and seamless user flow to enhance user engagement and accessibility. Focused on creating a user-centered design that prioritizes meaningful digital interactions.",
+        tags: ["Figma", "UI/UX", "Mobile Design", "User Flow", "Prototyping"],
+        icon: <FaRobot />,
+        color: "from-purple-500 to-cyan-500"
+    },
+    {
+        title: "Doctor Appointment Chatbot",
+        category: "Full-Stack Development",
+        description: "Developed a full-stack Django application, an AI-powered chatbot for doctor appointments, urgent care, and multilingual symptom recording and translation using NLP. Integrated natural language processing to provide seamless user experience.",
+        tags: ["Django", "AI", "NLP", "Python", "Chatbot", "Full-Stack"],
+        icon: <FaRobot />,
+        color: "from-cyan-500 to-blue-500"
+    },
+    {
+        title: "Vulnerability Assessment Tool Using DVWA",
         category: "Cybersecurity",
-        description: "Addressed the increasing complexity of cyber threats and limitations of traditional security systems. Used advanced tools such as XSS, DoS, and Burp Suite for systematic vulnerability scans. Developed mitigation strategies to strengthen system defenses and reduce exploitation risks. Provided hands-on experience in vulnerability management tools and techniques, emphasizing ethical cybersecurity practices including responsible vulnerability disclosure.",
-        tags: ["XSS", "DoS", "Burp Suite", "Cybersecurity", "Ethical Hacking"],
+        description: "Developed a system to assess web application vulnerabilities, including Cross-Site Scripting (XSS), SQL Injection, Denial of Service (DoS) attacks, and cryptographic weaknesses, using the Damn Vulnerable Web Application (DVWA) platform.",
+        tags: ["XSS", "SQL Injection", "DoS", "DVWA", "Cybersecurity", "Ethical Hacking"],
         icon: <FaShieldAlt />,
         color: "from-red-500 to-orange-500"
-    },
-    {
-        title: "Speech To Text Converter",
-        category: "AWS Cloud & Machine Learning",
-        description: "Designed and implemented a speech-to-text converter application utilizing Amazon Transcribe. This project leveraged cloud-based Machine Learning APIs to transcribe audio files into text format. Gained hands-on experience with data pre-processing, API integration, and managing transcripts within the AWS ecosystem.",
-        tags: ["AWS Transcribe", "Cloud ML", "Python", "API Integration"],
-        icon: <FaMicrophone />,
-        color: "from-blue-500 to-cyan-500"
-    },
-    {
-        title: "Attendance System using Face Recognition",
-        category: "AI/ML - Computer Vision",
-        description: "Built a facial recognition attendance system that captures 40 images per student and extracts facial points for identification. Utilized K-Nearest Neighbors (KNN) algorithm to create a model from the captured images, enabling accurate face recognition. Automated attendance tracking by predicting student faces using the trained model, ensuring reliable and efficient attendance management.",
-        tags: ["Face Recognition", "KNN", "Python", "Computer Vision", "OpenCV"],
-        icon: <FaUserCheck />,
-        color: "from-purple-500 to-pink-500"
     }
 ];
 
