@@ -4,13 +4,22 @@ import { FaBriefcase, FaCode, FaRobot } from 'react-icons/fa';
 
 const experiences = [
     {
-        title: "Software Associate Engineer",
-        company: "Nexnora Technologies Pvt. Ltd.",
-        date: "April 2025 – Present",
-        description: "At Nexnora Technologies Pvt. Ltd., I contributed to both Frontend and Backend development for two major products, Farmacy and AIProctorLock. I designed and built responsive, scalable, and pixel-perfect interfaces while also working on backend services using FastAPI and Python to ensure smooth API workflows and reliable data handling. I consistently followed modern development standards, focusing on reusable components, clean architecture, accessibility, and efficient rendering to deliver a seamless user experience and maintain code quality across the stack.",
-        tech: "React.js, React Native, TypeScript, JavaScript, Node.js, Expo Go, Flutter, Dart, FastAPI, Python, Uvicorn, REST APIs",
+        title: "Summer Intern",
+        company: "DRDL Hyderabad",
+        date: "Apr 2024 - May 2024",
+        description: "Developed web applications using JSP and Java Servlets, and managed MySQL database operations. Collaborated on backend design and optimisation, gaining experience in server-side programming.",
+        tech: "JSP, Java Servlets, MySQL",
         icon: <FaBriefcase />,
         color: "from-purple-500 to-cyan-500"
+    },
+    {
+        title: "Springboard Intern",
+        company: "Infosys",
+        date: "Nov 2024 – Jan 2025",
+        description: "Gained hands-on experience during internship by collaborating with a team to develop and enhance an AI-powered Django application. Actively participating in discussions, problem-solving, and delivering key features.",
+        tech: "Django, AI, Python, Team Collaboration",
+        icon: <FaCode />,
+        color: "from-cyan-500 to-blue-500"
     }
 ];
 
